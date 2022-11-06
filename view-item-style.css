@@ -117,20 +117,6 @@ nav h4 {
 
 }
 
-.page-product .container button {
-    width: 191px;
-    height: 40px;
-    background: #FFA234;
-    border: none;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 20px;
-    transition: 0.4s;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-
 .page-product .container .product-info {
     padding: 10px;
     background: #fff;
@@ -150,6 +136,21 @@ nav h4 {
     padding: 0,5%;
 }
 
-.page-product .container .product-info .box-right {
-    
+.container button {
+    width: 191px;
+    height: 40px;
+    background: #694D2C;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container button:hover {
+    width: 50%;
+    background-color: #FFA234;
 }
