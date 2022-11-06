@@ -103,27 +103,53 @@ nav h4 {
     width: 95px;
 }
 
-#info-donhang {
-    width: 100%;
-    height: 463px;
-    margin-top: 40px;
-    display: flex;
-    padding: 0px 501px;    
-    position: relative;
+.page-product {
+    display: block;
 }
 
-#info-donhang .box-left, #info-donhang .box-right{
-    width: 40%
+.page-product .container {
+    padding: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    align-items: center;
+    width: 1200px;
+
 }
 
-
-#info-donhang .box-right{
-    color: red;
+.page-product .container button {
+    width: 191px;
+    height: 40px;
+    background: #FFA234;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 76px;
-    font-size: 32px;
-    color: #626a67;
+.page-product .container .product-info {
+    padding: 10px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    align-items: center;
+}
+
+.page-product .container .product-info .box-left {
+    display: inline-block;
+    justify-items: center;
+
+}
+
+.page-product .container .product-info .box-left img {
+    width: 49%;
+    padding: 0,5%;
+}
+
+.page-product .container .product-info .box-right {
+    
 }
